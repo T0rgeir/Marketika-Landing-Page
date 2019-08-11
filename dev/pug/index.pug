@@ -1,0 +1,11 @@
+extends template/main
+
+block variables
+	- var title = 'Marketika';
+	- var pageClass = 'index-page';
+
+block content
+	include modules/section-promo.pug
+	include modules/section-founder.pug
+	include modules/section-plans.pug
+	include modules/section-free.pug
